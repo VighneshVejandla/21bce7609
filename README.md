@@ -15,7 +15,7 @@ To set up the game locally:
 
 1. *Clone the repository*:
 
-    bash
+   `` bash
     git clone https://github.com/VighneshVejandla/21bce7609
     
 
@@ -76,13 +76,13 @@ Displays which player's turn it is and the current game state.
 
 The move history showing all the actions taken during the game.
 
-### 7. Invalid moves
+### 5. Invalid moves
 
 ![Invalid move](./images/wrongmove.png)
 
 The Invalid moves or wrong moves cna be seen under the grid
 
-### 8. Moving a character to same player character
+### 6. Moving a character to same player character
 
 ![Settings Menu](./images/samesidecharactermove.png)
 
@@ -91,7 +91,7 @@ A message will be show under the grid if we move the charater to the place of ss
 
 ## 📫 Contact
 
-For any inquiries or feedback, please reach out to me at [your-email@example.com](mailto:vighneshvejandla900@gmail.com).
+For any inquiries or feedback, please reach out to me at [vighneshvejandla900@gmail.com](mailto:vighneshvejandla900@gmail.com).
 
 ---
 
