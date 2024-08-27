@@ -21,29 +21,29 @@ To set up the game locally:
 
 2. *Go to Client folder*:
 
-    bash
+   ``` bash
     cd client
-    
+    ```
 
 3. *Install dependencies and start*:
 
-    bash
+   ``` bash
     npm install
     npm start
-
+   ```
 
 5. *Go to server2 folder*:
 
-    bash
+   ```  bash
     cd server2
-
+   ```
 
 6. *Install dependencies and start server*:
 
-    bash
+   ``` bash
     npm install
     npm start
-
+   ```
     
 ## 🖼 Screenshots
 
