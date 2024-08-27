@@ -39,7 +39,7 @@ const ChessGame = () => {
                         currentPlayer: data.currentPlayer
                     }));
                 } else if (data.type === 'move') {
-                    console.log(`Player ${data.currentPlayer} moved ${data.character} from (${data.fromX}, ${data.fromY}) to (${data.toX}, ${data.toY})`);
+                    console.log(`${data.currentPlayer} moved ${data.character} from (${data.fromX}, ${data.fromY}) to (${data.toX}, ${data.toY})`);
                     setGameState(prevState => ({
                         ...prevState,
                         board: data.boardState,
@@ -51,7 +51,7 @@ const ChessGame = () => {
                     const toLabel = getLabelForPosition(data.toX, data.toY);
                     setMoveHistory(prevHistory => [
                         ...prevHistory,
-                        `Player ${gameState.currentPlayer} moved ${data.character} from ${fromLabel} to ${toLabel}`
+                        `${data.currentPlayer === "A" ? "B" : "A"} moved ${data.character} from ${fromLabel} to ${toLabel}`
                     ]);
                 } else if (data.error) {
                     console.error('Error from server:', data.error);
@@ -214,7 +214,7 @@ const ChessGame = () => {
     };
 
     return (
-        
+
 <div className="main-container">
 
 <div className="game-guide">
@@ -253,6 +253,7 @@ const ChessGame = () => {
     </ul>
 </div>
 
+<div className='game-main'>
 <div className="game-container">
     <h1>Turn-based <br />Chess-like Game</h1>
     
@@ -318,6 +319,7 @@ const ChessGame = () => {
     ) : (
         <div>Connecting...</div>
     )}
+</div>
 </div>
 
 </div>
