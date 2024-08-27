@@ -6,8 +6,7 @@ Welcome to the *Turn-Based Chess-Like Game!* 🏆 This game is a strategic, turn
 - *Multiplayer Support*: Play with friends in real-time using WebSocket connections.
 - *Turn-Based Gameplay*: Alternate turns with your opponent, making strategic moves.
 - *Character Variety*: Control Pawns and Heroes, each with unique movement patterns.
-- *Chat Functionality*: Communicate with your opponent during the game.
-- *Game Rules Display*: Toggle view to see the game rules and guidelines.
+- *Game Rules Display*: See game rule and guidelines on the side of the game
 
 ## 📦 Installation
 
