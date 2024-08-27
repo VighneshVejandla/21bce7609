@@ -15,9 +15,9 @@ To set up the game locally:
 
 1. *Clone the repository*:
 
-   `` bash
+   ``` bash
     git clone https://github.com/VighneshVejandla/21bce7609
-    
+   ``` 
 
 2. *Go to Client folder*:
 
