@@ -49,7 +49,7 @@ To set up the game locally:
 
 ### 1. Game Lobby
 
-![Game Lobby](./images/initial board A.png)
+![Game Lobby](./images/initialboardA.png)
 
 The game lobby where players can join or create a room.
 
