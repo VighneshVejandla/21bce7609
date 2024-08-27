@@ -47,27 +47,32 @@ To set up the game locally:
     
 ## 🖼 Screenshots
 
-### 1. Game Lobby
-
+### 1. Game Lobby 
+### Game Lobby A
 ![Game Lobby A](./images/initialboardA.png)
 
 The game lobby where players can join or create a room.
 
+### Game Lobby B
 ![Game Lobby A](./images/initialboardB.png)
 
 ### 2. Game Board - Initial Setup
 
+### Initial Setup A
 ![Initial Setup A](./images/startgameA.png)
 
+### Initial Setup B
 The initial setup of the game board with characters placed.
 ![Initial Setup B](./images/startgameA.png)
 
 ### 3. Player's Turn
 
+### Player A Turn
 ![Player's Turn A](./images/firstmoveA.png)
 
 Displays which player's turn it is and the current game state.
 
+### Player B Turn
 ![Player's Turn B](./images/firstmoveB.png)
 
 ### 4. Move History
